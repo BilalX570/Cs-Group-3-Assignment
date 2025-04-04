@@ -24,13 +24,13 @@ int main() {
     double base;
     int exponent;
 
-    std::cout << "Enter base: ";
-    std::cin >> base;
-    std::cout << "Enter exponent: ";
-    std::cin >> exponent;
+    cout << "Enter base: ";
+    cin >> base;
+    cout << "Enter exponent: ";
+   cin >> exponent;
 
     double result = power(base, exponent);
-    std::cout << base << "^" << exponent << " = " << result << std::endl;
+    cout << base << "^" << exponent << " = " << result << std::endl;
 
     return 0;
 }
